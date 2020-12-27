@@ -1,9 +1,11 @@
 # Automata theory project — car simulator
 
-### [Introduction](https://github.com/kogutenko/at-car-simulator/raw/master/introduction.pdf)
+### [Promotion (Russian)](https://github.com/kogutenko/at-car-simulator/raw/master/docs/presentation.pdf)
 
-### [Methods and synthesis](https://github.com/kogutenko/at-car-simulator/raw/master/methods.pdf)
+### [Introduction (Russian)](https://github.com/kogutenko/at-car-simulator/raw/master/docs/introduction.pdf)
 
-### [Logisim scheme](https://raw.githubusercontent.com/kogutenko/at-car-simulator/master/scheme.circ)
+### [Methods and synthesis (Russian)](https://github.com/kogutenko/at-car-simulator/raw/master/docs/methods.pdf)
+
+### [Logisim scheme](https://raw.githubusercontent.com/kogutenko/at-car-simulator/master/docs/scheme.circ)
 
 ### [Source code (C)](https://raw.githubusercontent.com/kogutenko/at-car-simulator/master/main.c)
