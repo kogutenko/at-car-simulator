@@ -43,7 +43,7 @@ const char *STR_OUTPUT_B2   = "b2 - nothing to do";
 
 typedef enum
 {
-    Q0 = 0, // Rest, on the handbrake, engine shut down, 
+    Q0 = 0, // Rest, on the handbrake, engine shut down
     Q1,     // Rest, on the handbrake, engine started
     Q2,     // Rest, removed from the handbrake, engine started
     Q3,     // On the move
@@ -102,26 +102,6 @@ const OUTPUT B_TABLE[7][5] =
 };
 
 
-void print_state(STATE state)
-{
-    printf("%s", STR_CURR_STATE);
-    
-    printf("%s", STR_OFFSET);
-    
-    switch(state)
-    {
-        case Q0: printf("%s", STR_STATE_Q0); break;
-        case Q1: printf("%s", STR_STATE_Q1); break;
-        case Q2: printf("%s", STR_STATE_Q2); break;
-        case Q3: printf("%s", STR_STATE_Q3); break;
-        case Q4: printf("%s", STR_STATE_Q4); break;
-        case Q5: printf("%s", STR_STATE_Q5); break;
-    }
-    
-    printf("%s", "\n\n");
-}
-
-
 
 /* FUNCTIONS IMPLEMENTATIONS */
 
@@ -149,6 +129,9 @@ void print_actions()
 	
 	putchar('\n');
 }
+
+
+/* Print greeting */
 
 void print_intro()
 {
@@ -226,6 +209,28 @@ INPUT read_input()
     }
     
     return input;
+}
+
+
+/* Print state description */
+
+void print_state(STATE state)
+{
+    printf("%s", STR_CURR_STATE);
+    
+    printf("%s", STR_OFFSET);
+    
+    switch(state)
+    {
+        case Q0: printf("%s", STR_STATE_Q0); break;
+        case Q1: printf("%s", STR_STATE_Q1); break;
+        case Q2: printf("%s", STR_STATE_Q2); break;
+        case Q3: printf("%s", STR_STATE_Q3); break;
+        case Q4: printf("%s", STR_STATE_Q4); break;
+        case Q5: printf("%s", STR_STATE_Q5); break;
+    }
+    
+    printf("%s", "\n\n");
 }
 
 
