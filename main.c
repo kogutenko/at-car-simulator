@@ -104,21 +104,21 @@ const OUTPUT B_TABLE[7][5] =
 
 void print_state(STATE state)
 {
-    printf(STR_CURR_STATE);
+    printf("%s", STR_CURR_STATE);
     
-    printf(STR_OFFSET);
+    printf("%s", STR_OFFSET);
     
     switch(state)
     {
-        case Q0: printf(STR_STATE_Q0); break;
-        case Q1: printf(STR_STATE_Q1); break;
-        case Q2: printf(STR_STATE_Q2); break;
-        case Q3: printf(STR_STATE_Q3); break;
-        case Q4: printf(STR_STATE_Q4); break;
-        case Q5: printf(STR_STATE_Q5); break;
+        case Q0: printf("%s", STR_STATE_Q0); break;
+        case Q1: printf("%s", STR_STATE_Q1); break;
+        case Q2: printf("%s", STR_STATE_Q2); break;
+        case Q3: printf("%s", STR_STATE_Q3); break;
+        case Q4: printf("%s", STR_STATE_Q4); break;
+        case Q5: printf("%s", STR_STATE_Q5); break;
     }
     
-    printf("\n\n");
+    printf("%s", "\n\n");
 }
 
 
@@ -139,20 +139,20 @@ void clear_screen()
 
 void print_actions()
 {
-    printf(STR_INPUT_A0); putchar('\n');
-    printf(STR_INPUT_A1); putchar('\n');
-    printf(STR_INPUT_A2); putchar('\n');
-    printf(STR_INPUT_A3); putchar('\n');
-    printf(STR_INPUT_A4); putchar('\n');
-    printf(STR_INPUT_A5); putchar('\n');
-    printf(STR_INPUT_A6); putchar('\n');
+    printf("%s", STR_INPUT_A0); putchar('\n');
+    printf("%s", STR_INPUT_A1); putchar('\n');
+    printf("%s", STR_INPUT_A2); putchar('\n');
+    printf("%s", STR_INPUT_A3); putchar('\n');
+    printf("%s", STR_INPUT_A4); putchar('\n');
+    printf("%s", STR_INPUT_A5); putchar('\n');
+    printf("%s", STR_INPUT_A6); putchar('\n');
 	
 	putchar('\n');
 }
 
 void print_intro()
 {
-    printf(STR_INTRO);
+    printf("%s", STR_INTRO);
 }
 
 
@@ -184,7 +184,7 @@ void skip_to_newline()
 
 INPUT read_input()
 {
-    printf(STR_READ_ACTION);
+    printf("%s", STR_READ_ACTION);
     
     char symbol = skip_spaces();
     
@@ -233,23 +233,23 @@ INPUT read_input()
 
 void print_action(INPUT input)
 {
-    printf(STR_OFFSET);
+    printf("%s", STR_OFFSET);
     
-    printf(STR_ACTION);
+    printf("%s", STR_ACTION);
     
     switch(input)
     {
-        case A0: printf(STR_INPUT_A0); break;
-        case A1: printf(STR_INPUT_A1); break;
-        case A2: printf(STR_INPUT_A2); break;
-        case A3: printf(STR_INPUT_A3); break;
-        case A4: printf(STR_INPUT_A4); break;
-        case A5: printf(STR_INPUT_A5); break;
-        case A6: printf(STR_INPUT_A6); break;
-        case A7: printf(STR_INPUT_A7); break;
+        case A0: printf("%s", STR_INPUT_A0); break;
+        case A1: printf("%s", STR_INPUT_A1); break;
+        case A2: printf("%s", STR_INPUT_A2); break;
+        case A3: printf("%s", STR_INPUT_A3); break;
+        case A4: printf("%s", STR_INPUT_A4); break;
+        case A5: printf("%s", STR_INPUT_A5); break;
+        case A6: printf("%s", STR_INPUT_A6); break;
+        case A7: printf("%s", STR_INPUT_A7); break;
     }
     
-    printf("\n");
+    printf("%s", "\n");
 }
 
 
@@ -257,18 +257,18 @@ void print_action(INPUT input)
 
 void print_result(OUTPUT result)
 {
-    printf(STR_OFFSET);
+    printf("%s", STR_OFFSET);
     
-    printf(STR_RESULT);
+    printf("%s", STR_RESULT);
     
     switch(result)
     {
-        case B0: printf(STR_OUTPUT_B0); break;
-        case B1: printf(STR_OUTPUT_B1); break;
-        case B2: printf(STR_OUTPUT_B2); break;
+        case B0: printf("%s", STR_OUTPUT_B0); break;
+        case B1: printf("%s", STR_OUTPUT_B1); break;
+        case B2: printf("%s", STR_OUTPUT_B2); break;
     }
     
-    printf("\n\n");
+    printf("%s", "\n\n");
 }
 
 
@@ -309,7 +309,7 @@ int main()
             
             print_action(input);
             
-            printf("\n\n");
+            printf("%s", "\n\n");
             
         } else {
             
