@@ -1,5 +1,9 @@
 # Automata theory project — car simulator
 
+Status:
+
+[![Build](https://github.com/kogutenko/at-car-simulator/workflows/Build/badge.svg)](https://github.com/kogutenko/at-car-simulator/actions?query=workflow%3ABuild)
+
 ## General
 
 ### [Promotion (Russian)](https://github.com/kogutenko/at-car-simulator/raw/master/docs/presentation.pdf)
