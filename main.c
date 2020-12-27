@@ -205,7 +205,7 @@ INPUT read_input()
         
         input = A7;
         
-        skip_to_newline();
+        if(symbol != '\n') skip_to_newline();
     }
     
     return input;
