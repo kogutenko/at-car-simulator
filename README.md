@@ -1,10 +1,9 @@
 # Automata theory project — car simulator
 
-Status:
+Status: [![С build](https://github.com/kogutenko/at-car-simulator/workflows/%D0%A1%20build/badge.svg)](https://github.com/kogutenko/at-car-simulator/actions?query=workflow%3A%22%D0%A1+build%22)
+[![Assembly build](https://github.com/kogutenko/at-car-simulator/workflows/Assembly%20build/badge.svg)](https://github.com/kogutenko/at-car-simulator/actions?query=workflow%3A%22Assembly+build%22)
 
-[![Build](https://github.com/kogutenko/at-car-simulator/workflows/Build/badge.svg)](https://github.com/kogutenko/at-car-simulator/actions?query=workflow%3ABuild)
-
-## General
+## Docs
 
 ### [Promotion (Russian)](https://github.com/kogutenko/at-car-simulator/raw/master/docs/presentation.pdf)
 
@@ -14,7 +13,13 @@ Status:
 
 ### [Logisim scheme](https://raw.githubusercontent.com/kogutenko/at-car-simulator/master/docs/scheme.circ)
 
+## Source code and binaries
+
 ### [Source code (C)](https://raw.githubusercontent.com/kogutenko/at-car-simulator/master/main.c)
+
+### [Source code (assembly, FASM)](https://raw.githubusercontent.com/kogutenko/at-car-simulator/master/main.asm)
+
+### [x86 Linux binary (1226 bytes)](https://raw.githubusercontent.com/kogutenko/at-car-simulator/master/at-car-simulator_linux_x86_64)
 
 ## Credits
 
