@@ -20,3 +20,6 @@ run:
 
 production:
 	clang $(CFLAGS_RELEASE) main.c -o $(TITLE)
+
+asm:
+	fasm main.asm $(TITLE)
