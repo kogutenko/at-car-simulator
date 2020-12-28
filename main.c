@@ -7,7 +7,7 @@
 
 const char *STR_INTRO       = "Welcome to car driving simulator!\n\n";
 
-const char *STR_CURR_STATE  = "Current state:\n";
+const char *STR_CURR_STATE  = "Current state: ";
 const char *STR_READ_ACTION = "Action (digit): ";
 const char *STR_AVAIL_ACTS  = "Available actions:\n\n";
 
@@ -31,7 +31,7 @@ const char *STR_INPUT_A4    = "a4 - drive";
 const char *STR_INPUT_A5    = "a5 - stop driving";
 const char *STR_INPUT_A6    = "a6 - exit car";
 
-const char *STR_INPUT_A7    = "Unknown transition - nothing to do";
+const char *STR_INPUT_A7    = "unknown transition - nothing to do";
 
 const char *STR_OUTPUT_B0   = "b0 - success";
 const char *STR_OUTPUT_B1   = "b1 - error";
@@ -216,9 +216,7 @@ INPUT read_input()
 
 void print_state(STATE state)
 {
-    printf("%s", STR_CURR_STATE);
-    
-    printf("%s", STR_OFFSET);
+    printf("%s%s", STR_OFFSET, STR_CURR_STATE);
     
     switch(state)
     {
@@ -238,9 +236,7 @@ void print_state(STATE state)
 
 void print_action(INPUT input)
 {
-    printf("%s", STR_OFFSET);
-    
-    printf("%s", STR_ACTION);
+    printf("%s%s", STR_OFFSET, STR_ACTION);
     
     switch(input)
     {
@@ -262,9 +258,7 @@ void print_action(INPUT input)
 
 void print_result(OUTPUT result)
 {
-    printf("%s", STR_OFFSET);
-    
-    printf("%s", STR_RESULT);
+    printf("%s%s", STR_OFFSET, STR_RESULT);
     
     switch(result)
     {
