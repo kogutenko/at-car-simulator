@@ -3,6 +3,8 @@
 Status: [![С build](https://github.com/kogutenko/at-car-simulator/workflows/%D0%A1%20build/badge.svg)](https://github.com/kogutenko/at-car-simulator/actions?query=workflow%3A%22%D0%A1+build%22)
 [![Assembly build](https://github.com/kogutenko/at-car-simulator/workflows/Assembly%20build/badge.svg)](https://github.com/kogutenko/at-car-simulator/actions?query=workflow%3A%22Assembly+build%22)
 
+![](https://i.imgur.com/1HSMRop.png)
+
 ## Docs
 
 ### [Promotion (Russian)](https://github.com/kogutenko/at-car-simulator/raw/master/docs/presentation.pdf)
